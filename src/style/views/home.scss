@@ -1,8 +1,10 @@
 .test{
   background-color: $bgColorPrimary;
+
+
   h1{
     color: $bgColorSecondary;
-    font-family: Montserrat-Regular;
+    font-family: $fontRegular;
   }
 }
 
