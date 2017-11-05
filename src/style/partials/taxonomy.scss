@@ -1,5 +1,5 @@
-h1{
-  @include font(36px,#002157,bold,$fontRegular);
+.tel span, .tel a{
+  @include font(18px,#ffffff,400,$fontRegular);
 }
 
 /*TODO:: bl9 karoche na GD files, multiple backgrounds, minimum: navbar*/

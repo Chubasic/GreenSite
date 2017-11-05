@@ -1,10 +1,6 @@
-.test{
+.tel{
   background-color: $bgColorPrimary;
-
-
-  h1{
-    color: $bgColorSecondary;
-    font-family: $fontRegular;
+  .fa {
+    color: $fontColorNone;
   }
 }
-

@@ -58,7 +58,7 @@ $fontSemiBold: 'montserratsemibold', sans-serif;
 $fontLight: 'montserratlight', sans-serif;
 $fontRegular: 'montserrat_regular', sans-serif;
 $fontBold: 'montserrat_bold', sans-serif;
-$fontLight: FontAwesome;
+$fontAwesome: FontAwesome;
 
 
 @mixin font($font-size:14px, $color:$textPrimary, $font-weight:400, $font-family:$fontRegular){
