@@ -8,10 +8,13 @@
 /*
 * Custom
 */
+@import "partials/navbar";
+@import "partials/buttons";
 @import "partials/variable";
 @import "partials/clr";
 @import "partials/fonts";
 @import "partials/taxonomy";
+
 
 @import "views/home";
 

@@ -2,4 +2,23 @@
   @include font(18px,#ffffff,400,$fontRegular);
 }
 
+.nav ul{
+  @include navStyle(14px,700,$fontRegular);
+  list-style: none;
+  overflow: hidden;
+  li{
+    display: inline-block;
+  }
+  li a{
+    display: block;
+    color: $mainFontColor;
+    text-transform: uppercase;
+    &:hover{
+      color: $redBtnColor;
+      text-decoration: none;
+      border-bottom: 3px solid $redBtnColor;
+    }
+  }
+}
+
 /*TODO:: bl9 karoche na GD files, multiple backgrounds, minimum: navbar*/
