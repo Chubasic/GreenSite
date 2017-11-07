@@ -17,3 +17,24 @@
   vertical-align: middle;
   margin: 5px 0;
 }
+
+
+.social-top{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 0;
+  a {
+    width: 39px;
+    height: 40px;
+    padding: 3px 6px 5px;
+  }
+  .a-pinterest{
+    background-color: $redBtnColor;
+  }
+  .a-twitter{
+    background-color: $twitterClr;
+  }
+  .a-fb{
+    background-color: $fbClr;
+  }
+}
