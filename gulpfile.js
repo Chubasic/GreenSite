@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant'),
     rimraf = require('rimraf'),
     browserSync = require("browser-sync"),
+    spritesmith = require('gulp.spritesmith'),
     reload = browserSync.reload;
 
 var path = {
@@ -136,3 +137,14 @@ gulp.task('watch', function(){
 
 
 gulp.task('default', ['build', 'webserver', 'watch']);
+
+
+gulp.task('sprite', function () {
+    var spriteData = gulp.src('src/img/icons/*.png').pipe(spritesmith({
+        imgName: 'sprite.png',
+        cssName: 'sprite.css',
+        algorithml: 'top-down',
+        padding: 500
+    }));
+    return spriteData.pipe(gulp.dest('src/sprites/'));
+});
