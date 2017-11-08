@@ -4,6 +4,39 @@
     color: $fontColorNone;
   }
 }
+
 .order-now{
   background-color: $boxColor;
+}
+
+.chat{
+  @include Button(16px,$bgColorPrimary,$fontColorNone,400,$fontSemiBold);
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.red-btn{
+  @extend .chat;
+  @include Button(16px,$redBtnColor,$fontColorNone,700, $fontSemiBold);
+}
+
+
+
+/*btn*/
+.dude{
+  position: absolute;
+  background-image: url("../../img/img-boy.png");
+  width: 488px;
+  height: 322px;
+  left: 0;
+}
+.lamp{
+  position: absolute;
+  background-image: url("../../img/img-books-lamp.png");
+  width: 188px;
+  height: 421px;
+  right: 0;
 }

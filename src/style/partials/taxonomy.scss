@@ -3,7 +3,7 @@
 }
 
 .nav ul{
-@include navStyle(14px,700,$fontRegular);
+@include navStyle(12px,700,$fontBold);
 list-style: none;
 overflow: hidden;
 li{

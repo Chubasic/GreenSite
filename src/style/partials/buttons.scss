@@ -1,7 +1,7 @@
-@mixin redButton($fontSize:18px, $backgroundColor:$redBtnColor, $color:$bgColorSecondary, $font-weight:700, $font-family:$fontRegular){
+@mixin Button($fontSize:18px, $backgroundColor:$redBtnColor, $color:$bgColorSecondary, $font-weight:700, $font-family:$fontRegular){
   font-size: $fontSize;
   font-weight: $font-weight;
-  font-family: $fontRegular;
-  background-color: $redBtnColor;
+  font-family: $font-family;
+  background-color: $backgroundColor;
   color: $color;
 }
