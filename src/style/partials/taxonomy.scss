@@ -21,4 +21,20 @@ li a{
 }
 }
 
+.big-ltrs{
+  @include font(52px, #ffffff, 700, $fontBold);
+  text-transform: uppercase;
+}
+
+.succes{
+  h2{
+    @include font(36px, #ffffff, 400, $fontSemiBold);
+    text-transform: uppercase;
+  }
+  h3{
+    @include font(27px, #003300, 300, $fontLight);
+    text-transform: uppercase;
+  }
+}
+
 /*TODO:: bl9 karoche na GD files, multiple backgrounds, minimum: navbar*/
