@@ -5,9 +5,14 @@
   }
 }
 
+.clr-fill{
+  background-color: $boxColor;
+}
+
 .order-now{
   background: url("../../img/img-boy.png") left center no-repeat, url("../../img/img-books-lamp.png") right center no-repeat;
   background-color: $boxColor;
+  height: 471px;
 }
 
 .chat{
