@@ -1,0 +1,32 @@
+.advan-hdr{
+  @include font(36px, $mainFontColor, 400, $fontRegular);
+  text-align: center;
+}
+.icon-ad-icon {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -1602px;
+  width: 22px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 0;
+}
+.icon-ad-icon2 {
+  background-image: url(../img/sprite.png);
+  background-position: -1076px -534px;
+  width: 33px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 0;
+}
+
+.icon-ad-icon3 {
+  background-image: url(../img/sprite.png);
+  background-position: -1609px -540px;
+  width: 24px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 0;
+}
