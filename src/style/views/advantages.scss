@@ -17,6 +17,15 @@
     background-color: $boxColor;
     margin-bottom: 15px;
     margin-right: 15px;
+    &:hover{
+      background-color: $redBtnColor;
+      i{
+        color: white;
+      }
+      span{
+        color: $fontColorNone;
+      }
+    }
   }
 }
 

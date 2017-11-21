@@ -26,6 +26,9 @@
   display: inline-block;
   padding: 0 10px;
   border-radius: 3px;
+  &:hover{
+    background-color: $redBtnColor;
+  }
 }
 
 .red-btn-pos{
@@ -40,6 +43,9 @@
   width: 269px;
   height: 69px;
   border-radius: 3px;
+  &:hover{
+    background-color: $bgColorPrimary;
+  }
 }
 
 .special{
@@ -58,6 +64,9 @@
   border: 1px solid #ffffff;
   text-transform: uppercase;
   text-align: center;
+  &:hover{
+    background-color: $redBtnColor;
+  }
 }
 
 .disc-t{

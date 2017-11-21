@@ -26,6 +26,8 @@ var path = {
     src: {
         html: 'src/*.html',
         js: 'src/js/main.js',
+        jquery: 'node_modules/jquery/dist/jquery.min.js',
+        bootsrapjs: 'node_modules/bootstrap/dist/js/bootstrap.min.js',
         style: 'src/style/main.scss',
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'
@@ -66,7 +68,7 @@ gulp.task('html:build', function () {
 });
 
 gulp.task('js:build', function () {
-    gulp.src(path.src.js) 
+    gulp.src([path.src.js, path.src.jquery, path.src.bootsrapjs])
         //.pipe(rigger())
         //.pipe(sourcemaps.init())
         .pipe(uglify())
