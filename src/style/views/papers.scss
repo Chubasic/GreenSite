@@ -1,0 +1,17 @@
+.qulity-papers h1{
+  @include font(36px, $mainFontColor, 700, $fontBold);
+  text-transform: uppercase;
+  line-height: 47.64px;
+  text-align: center;
+}
+
+.txt-pt-one{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  line-height: 24.39px;
+  @include font(14px, $secondaryFontColor, 300, $fontLight);
+}
