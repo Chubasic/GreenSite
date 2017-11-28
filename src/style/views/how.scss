@@ -1,0 +1,30 @@
+.h-i-w-sp {
+  text-align: center;
+  span {
+    line-height: 40px;
+    @include font(36px, $fontColorNone, 400, $fontRegular);
+  }
+}
+
+.top-hiw {
+  border-bottom: dashed 1px black;
+  margin-bottom: 250px;
+  padding-bottom: 60px;
+  margin-top: 100px;
+  .elem-1,.elem-2, .elem-3{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #cccccc;
+    background-color: $redBtnColor;
+  }
+}
+
+.bottom-hiw{
+  
+  .elem-4,.elem-5{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #cccccc;
+    background-color: $redBtnColor;
+  }
+}
